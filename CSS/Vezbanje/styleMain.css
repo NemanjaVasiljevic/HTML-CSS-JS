@@ -1,0 +1,16 @@
+h1{
+    font-style: italic;
+    text-align: center;
+    color:darkred;
+    background-image: url("https://www.everynation.org/wp-content/uploads/2018/02/Monthly-Website-Header-background.jpg");
+    height: 50px;
+    width: 1600px;
+}
+body{
+    background-color:skyblue;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
