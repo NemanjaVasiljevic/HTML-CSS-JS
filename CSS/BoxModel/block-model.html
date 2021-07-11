@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>The Box Model</title>
+<head>
+<meta charset="utf-8">
+<title>Two Column Design</title>
+<style>
 
-        <style>
-            *{
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
-            body{
-                background-color: grey;
-                margin: 0;
-                padding: 0;
-            }
+* {
+  box-sizing: border-box;
+}
 
-            #box{
-                background-color: blue;
-                padding: 5px;
-                border: 3px solid black;
-                width: 300px;
-                height: 50px;
-                margin-top: 50px;
-                overflow: auto;
-                
-            }
-            #content{
-                background-color: green;
-                
-            }
+div {
+  /*background-color: #00FFFF;*/
+}
+p {
+  width: 50%;
+  /*border: 1px solid black;*/
+  float: left;
+  padding: 10px;
+}
 
-            h1{
-                margin-bottom: 30px;
-            }
+#p1 {
+  background-color: #A52A2A;
+  margin: 5px;
+}
+#p2 {
+  background-color: #DEB887;
+}
 
-        </style>
-    </head>
+section {
+  clear: left;
+}
 
-    <body>
-        <h1>Box Model</h1>
+</style>
+</head>
+<body>
+<h1>Two Column Design</h1>
 
-        <div id="box">
-            <div id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias, eveniet et facere sunt accusantium doloribus quo, corrupti dolorum aut, tenetur similique nulla sequi rerum. Aperiam labore ipsa quisquam fugit!
-            Maxime natus, error dolor cum atque eaque quibusdam minus accusamus magni, libero iusto at provident distinctio sequi aspernatur harum dolores? Quo tempore, nam natus sed ipsa voluptate illo in placeat!
-            Quos temporibus saepe quas quibusdam magni blanditiis aperiam soluta ipsum est dolorem corporis perferendis optio, eligendi impedit iusto quam ex velit, neque omnis, distinctio aliquam. Laboriosam earum minima deleniti temporibus?
-            Esse nulla labore dolorum exercitationem veniam, tempora soluta ab nisi quis ea voluptates provident minima vel facere est sed optio aut sit totam cum non earum. Et praesentium nemo ipsam?
-            Aperiam dolorem iure ut harum, ex hic molestias labore eum placeat doloribus minus eius maxime voluptatum doloremque. Quae, iure ullam hic illum fugiat dolorum? Nesciunt ut excepturi cum ullam eum.     
-            </div>
-        </div>
-    </body>
+<div>
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+  <section>This is regular content continuing after the the paragraph boxes.</section>
+</div>
+
+
+</body>
 </html>
